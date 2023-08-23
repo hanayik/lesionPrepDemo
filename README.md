@@ -15,13 +15,13 @@ TBD
 To run the desktop app in dev mode, follow these steps:
 
 1. `npm install`
-2. `npm run dev # uses concurrently to run the frontend dev server and electron app at the same time`
+2. `cd frontend`
+3. `npm install`
+4. `cd ..`
+6. `npm run dev # uses concurrently to run the frontend dev server and electron app at the same time`
 
 ## front-end
-
-1. `cd frontend`
-2. `npm install`
-3. `npm run dev`
+1. `npm run dev`
 
 ## Building the desktop app
 
